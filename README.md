@@ -24,3 +24,23 @@ An automated testing framework designed for the ParaBank application using **Pyt
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/Selenium-Python-ParaBank-Automation.git](https://github.com/your-username/Selenium-Python-ParaBank-Automation.git)
+   
+2. Navigate to the project directory:
+cd Selenium-Python-ParaBank-Automation
+3. Create and activate a virtual environment:
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+4. Install dependencies:
+pip install -r requirements.txt
+
+
+🏃 Running Tests
+To run all tests in the project: pytest
+To run a specific test file: pytest tests/test_hybrid_account.py
+
+📊 Key Workflows Covered
+Account Overview: Validating balances and account links.
+
+Account Creation: Automating the opening of new checking/savings accounts.
+
+Fund Transfers: Verifying transaction logic between accounts.
