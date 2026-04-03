@@ -1,0 +1,6 @@
+{
+  "test_accounts": [
+    {"type": "0", "desc": "Savings Account"},
+    {"type": "1", "desc": "Checking Account"}
+  ]
+}
